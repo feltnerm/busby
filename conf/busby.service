@@ -1,0 +1,10 @@
+[Unit]
+Description=busby
+
+[Service]
+WorkingDirectory=/srv/apps/busby
+User=busby
+Type=simple
+ExecStart=.venv/bin/gunicorn -c conf/gunicorn.conf run:app
+Restart=restart-always
+RestartSec=1

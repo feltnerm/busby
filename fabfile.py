@@ -28,7 +28,7 @@ def pyellow(s, bold=False):
 # Environment settings
 # =
 env.PROJECT_ROOT = os.path.dirname(__file__)
-env.PROJECT_VENV = 'bassradio'
+env.PROJECT_VENV = 'busby'
 env.user = 'mark'
 env.roledefs = {
     'local': ['localhost'],
@@ -37,7 +37,7 @@ env.roledefs = {
 
 def server():
     env.PROJECT_ROOT = '/srv/apps'
-    env.user = 'mark'
+    env.user = 'deployer'
 
 @task
 def web():

@@ -1,8 +1,4 @@
-bass + radio
+busby
 ============
 
-**Wiki**: https://github.com/feltnerm/bassradio/wiki
-
-**Documentation**: http://bassradio.readthedocs.org/en/latest/
-
-
+**Wiki**: https://github.com/feltnerm/busby/wiki

@@ -3,7 +3,7 @@ import os.path
 import sys
 import logging
 
-SITE_NAME = 'bassradio'
+SITE_NAME = 'busby'
 
 # Directories
 #########

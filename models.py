@@ -8,12 +8,9 @@ from flask import abort
 from unidecode import unidecode
 from werkzeug.security import check_password_hash, generate_password_hash
 
-from helpers import format_time, to_json
-from extensions import db
+from busby.helpers import format_time, to_json
+from busby.extensions import db
 from flask.ext.login import make_secure_token
-
-from logging import getLogger
-logger = getLogger("bassradio")
 
 
 class User(db.Model):

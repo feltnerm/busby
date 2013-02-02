@@ -25,7 +25,7 @@ SQLALCHEMY_ECHO = DEVELOPMENT
 #########
 MAIL_SERVER = "{{ MAIL_SERVER }}"
 MAIL_PORT = 25
-DEFAULT_MAIL_SENDER = "bassradio"
+DEFAULT_MAIL_SENDER = "busby"
 
 # Cache
 #########
