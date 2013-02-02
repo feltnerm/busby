@@ -1,0 +1,17 @@
+## Development Requirements
+# Everything a developer needs. If it is a basic package _required_ by the site then it goes in the requirements/prod.txt file. If it's a package for developers (testing, docs, etc.) it goes in this file.
+
+-r prod.txt
+
+ipython
+
+# Documentation
+Sphinx
+
+# Testing
+Flask-Testing
+nose
+mock
+coverage
+pep8
+pylint

@@ -1,0 +1,34 @@
+## Production Requirements
+
+-r compiled.txt
+
+# WSGI Server
+gunicorn
+
+# Flask
+Werkzeug
+Flask
+
+# Templates (a requirement of Flask even though we don't use them)
+Jinja2
+
+# Logging
+Logbook
+
+# DB
+Flask-SQLAlchemy
+
+# Internationalization (?)
+# Flask-Babel
+
+# Caching
+Flask-Cache
+
+# User Auth
+Flask-Login
+
+# Extensions
+Flask-Bcrypt
+Flask-Mail
+unidecode
+simplejson

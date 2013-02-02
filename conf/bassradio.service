@@ -1,0 +1,10 @@
+[Unit]
+Description=bassradio
+
+[Service]
+WorkingDirectory=/srv/apps/bassradio
+User=mark
+Type=simple
+ExecStart=/home/mark/.virtualenvs/bassradio/bin/gunicorn -c conf/gunicorn.conf run:app
+Restart=restart-always
+RestartSec=1

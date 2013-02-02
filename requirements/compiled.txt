@@ -1,0 +1,4 @@
+## Compiled Requirements
+# should be installed first
+py-bcrypt
+fabric
