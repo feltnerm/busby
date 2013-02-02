@@ -101,7 +101,6 @@ def configure_logging(app):
     from logbook import (NestedSetup, FileHandler, StreamHandler,
             NullHandler)
     from logbook.compat import RedirectLoggingHandler
-    app.logger = Logger('bassradio')
 
 
 def configure_routes(app):
