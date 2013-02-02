@@ -4,6 +4,7 @@
 
 # WSGI Server
 gunicorn
+psutil
 
 # Flask
 Werkzeug
